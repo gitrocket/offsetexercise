@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #999;
+
+}
+
+.box {
+    width: 255px;
+    height: 255px;
+    background-color:#999;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.output {
+    text-align: center;
+    padding: 20px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.description p {
+    width: 400px;
+}
